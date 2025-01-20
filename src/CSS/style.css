@@ -1,0 +1,320 @@
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+.div-1 {
+  padding-top: 100px;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.nav-item a {
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: 200;
+}
+span {
+  color: #fff;
+}
+#cart {
+  margin-right: 25px;
+}
+#navbarNav {
+  text-indent: 15px;
+}
+
+.learn-buy {
+  margin-bottom: 45px;
+}
+.button li {
+  display: inline-block;
+  text-indent: 25px;
+}
+.link-button {
+  background-color: #0077ed;
+  color: azure;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 10px 18px;
+  font-family: sans-serif;
+}
+.link-buttonBuy {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #0077ed;
+  color: #0077ed;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 250px;
+  font-family: sans-serif;
+}
+.link-buttonBuy:hover {
+  background-color: #0077ed;
+  color: white;
+}
+/**first secion old*/
+.first {
+  height: 650px;
+  /*background-image: url(../Images/home/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg);*/
+  background-image: url(../assets/Images/home/AppleCorected-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+}
+/***second section**/
+.second {
+  height: 650px;
+  /*background-image: url(../Images/home/hero_iphone16_avail__euwzls69btea_large.jpg);*/
+  background-image: url(../assets/Images/home/AppleCorrected-2.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+.hello-2,
+.hello-3 {
+  margin-bottom: 380px;
+}
+/*** third section**/
+.third {
+  height: 600px;
+
+  /* background-image: url(../Images/home/Apple-new-Watch.jpg);*/
+  background-image: url(../assets/Images/home/Apple-new-Watch.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f5f7;
+  background-size: contain;
+  background-position: center bottom;
+  background-color: #f5f5f7;
+
+  margin: 5px;
+}
+
+.airpod-4 {
+  /* background-image: url(../image/home/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg);*/
+  background-image: url(../assets/Images/home/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  padding-top: 300px;
+  background-color: #f5f5f7;
+  margin: 5px;
+}
+
+/**section four**/
+/**section four left**/
+.four {
+  /*background-image: url(../image/home/rightSideHearing.jpg.jpg);*/
+  background-image: url(../assets/Images/home/rightSideHearing.jpg.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  padding-top: 300px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+}
+
+/***section for right**/
+
+.macbook {
+  /* background-image: url(../image/home/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);*/
+  background-image: url(../assets/Images/home/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin: 5px;
+  height: 600px;
+  background-color: #f5f5f7;
+}
+/***section five**/
+.trade {
+  /* background-image: url(../image/home/phone2.jpg);*/
+  background-image: url(../assets/Images/home/phone2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin: 5px;
+  background-color: #f5f5f7;
+  height: 600px;
+}
+/**right five**/
+
+.card {
+  /* background-image: url(../image/home/appleCard.jpg);*/
+  background-image: url(../assets/Images/home/appleCard.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 600px;
+  margin: 5px;
+  padding-top: 60px;
+  border: 0px solid white;
+  background-color: #f5f5f7;
+  color: black;
+}
+
+.link-buttonApply {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #0077ed;
+  color: #0077ed;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 250px;
+  font-family: sans-serif;
+}
+
+.link-buttonApply:hover {
+  background-color: #0077ed;
+  color: white;
+}
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+.footer-links-wrapper ul li a {
+  text-decoration: none;
+}
+.footer-links-wrapper ul li :hover {
+  text-decoration: underline;
+}
+
+/**media**/
+
+@media (min-width: 768px) {
+  .third {
+    height: 600px;
+    width: 768px;
+    /*background-image: url(../image/home/watchBG.jpg);*/
+    background-image: url(../assets/Images/home/watchBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f5f7;
+    background-position: center bottom;
+    background-color: #f5f5f7;
+
+    margin: 5px;
+  }
+
+  .first {
+    height: 650px;
+    /*background-image: url(../image/home/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg);*/
+    background-image: url(../assets/Images/home/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+  }
+  .second {
+    height: 650px;
+    /*background-image: url(../image/home/hero_iphone16_avail__euwzls69btea_large.jpg);*/
+    background-image: url(../assets/Images/home/hero_iphone16_avail__euwzls69btea_large.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+  }
+  .macbook {
+    background-image: url(../assets/Images/home/Mini-Corrected.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin: 5px;
+    height: 600px;
+    background-color: #f5f5f7;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+  .footer-links-wrapper h3.expanded:after {
+    font-family: "FontAwesome";
+    content: "\f107";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
