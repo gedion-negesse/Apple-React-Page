@@ -3,11 +3,14 @@ import React from "react";
 import logo from "../../assets/Images/icon/logo.png";
 import cart from "../../assets/Images/icon/cart.png";
 import search from "../../assets/Images/icon/search-icon.png";
+import { Link } from "react-router-dom";
 function HeaderSection() {
   return (
     <nav id="nav-1" className="navbar fixed-top navbar-expand-lg navbar-light">
       <div className="container">
-        <img id="app" className="ms-5" src={logo} width="16px" alt="" />
+        <Link to="/">
+          <img id="app" className="ms-5" src={logo} width="16px" alt="" />
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -26,62 +29,62 @@ function HeaderSection() {
         >
           <ul className="navbar-nav nav-justified w-100 nav-fill">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/store">
                 Store
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/mac">
                 mac
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/ipad">
                 ipad
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/iphone">
                 iphone
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/watch">
                 watch
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/airpod">
                 AirPods
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/tv&home">
                 Tv&Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/entartainment">
                 Entartainment
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/Accessories">
                 Accessories
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
         <div className="d-flex">
           <div id="cart">
-            <a className="nav-link" href="">
+            <Link className="nav-link" to="/cart">
               <img src={cart} width="16px" alt="" />
-            </a>
+            </Link>
           </div>
           <div className="d-flex">
-            <a className="nav-link" href="">
+            <Link className="nav-link" to="/search">
               <img src={search} width="16px" alt="" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
