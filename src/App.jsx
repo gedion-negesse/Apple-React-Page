@@ -9,8 +9,9 @@ import SecondSection from "./components/SecondSection/SecondSection.jsx";
 import ThirdSection from "./components/ThirdSection/ThirdSection.jsx";
 import FourthSection from "./components/FourthSection/FourthSection.jsx";
 import FifthSection from "./components/FifthSection/FifthSection.jsx";
-import Mainsection from "./components/Mainsection/Mainsection.jsx";
+
 import { Route, Routes } from "react-router-dom";
+import Mainsection from "./components/Mainsection/Mainsection.jsx";
 import Store from "./components/Page/Store.jsx";
 import Mac from "./components/Page/Mac.jsx";
 import Ipad from "./components/Page/Ipad.jsx";
