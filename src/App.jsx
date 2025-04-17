@@ -47,7 +47,7 @@ function App() {
           <Route path="accessories" element={<Accessories />}></Route>
           <Route path="cart" element={<Cart />}></Route>
           <Route path="search" element={<Search />}></Route>
-          {/*<Route path="*" element={<Four04 />}></Route>*/}
+          {/*<Route path="*" element={<Four04 />}></Route> */}
           <Route path="*" element={<Mainsection />}></Route>
         </Route>
       </Routes>
